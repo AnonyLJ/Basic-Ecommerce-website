@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; /* Dark background color for the body */
+    color: #fff; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+
+center {
+    margin-top: 50px; /* Centering the content vertically */
+}
+
+h1 {
+    color: #fff; /* Heading text color */
+}
+
+table {
+    border-collapse: collapse; /* Collapse borders */
+}
+
+table, td {
+    border: 1px solid #444; /* Border style */
+}
+
+td {
+    padding: 10px; /* Padding inside table cells */
+    text-align: center; /* Center-align text inside cells */
+}
+
+img {
+    display: block; /* Ensure images are block-level elements */
+    margin: 0 auto; /* Center-align images horizontally */
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling for alternate rows */
+tr:nth-child(even) {
+    background-color: #333; /* Alternate row background color */
+}
